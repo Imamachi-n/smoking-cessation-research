@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: '禁煙治療の学習メモ', // Title for your website.
+  tagline: '禁煙治療ガイドラインや最新論文などの情報まとめ',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,18 +30,15 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'smoking-cessation-research',
+  organizationName: 'Imamachi-n',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'about', label: 'Docs'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +51,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#6e1b8f',
-    secondaryColor: '#4d1264',
+    primaryColor: '#242582',
+    secondaryColor: '#F64C72',
   },
 
   /* Custom fonts for website */
@@ -73,7 +70,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Naoto Imamachi`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
